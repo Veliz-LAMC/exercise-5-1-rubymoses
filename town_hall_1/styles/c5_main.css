@@ -57,19 +57,31 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
+	border-top: 3px solid var(--border-color);
+	border-bottom: 3px solid var(--border-color);
+	padding-right: 30px;
+	padding-left: 30px;
 }
 main h2 {
 	color: var(--global-color-1);
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
+	border-top: 3px solid var(--border-color);
+	border-bottom: 3px solid var(--border-color);
+	padding-right: 30px;
+	padding-left: 30px;
 }
 main h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 main img {
 	padding-bottom: 1em;
@@ -89,7 +101,17 @@ main li {
 }
 
 /* the styles for the footer */
+footer{
+	border-top: 3px solid var(--border-color);
+	background-color: var(--footer-bg-color);
+	padding-right: 30px;
+	padding-left: 30px;
+}
 footer p {
 	text-align: center;
 	padding: 1em 0;
+	color: var(--footer-font-color);
+}
+blockquote {
+	font-style: italic;	
 }
